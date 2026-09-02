@@ -1,0 +1,441 @@
+{
+ "fassung": 1,
+ "erzeugt": "2026-09-03T00:00:00Z",
+ "stand": "Waytide-Kacheln@3a7e19e55ceb22ab154829f056d0afbdcb74b065",
+ "lizenz": {
+  "daten": "ODbL 1.0",
+  "namensnennung": "© OpenStreetMap-Mitwirkende",
+  "hinweis": "https://www.openstreetmap.org/copyright"
+ },
+ "spiegel": [
+  "https://media.githubusercontent.com/media/tobiasKlingl/Waytide-Kacheln/3a7e19e55ceb22ab154829f056d0afbdcb74b065"
+ ],
+ "kacheln": [
+  {
+   "name": "E5_N45.rd5",
+   "bytes": 251312485,
+   "sha256": "eec41db0e4da95dbd2f41194ef3bc12dda7b71601426b32cd33ea4c5cb5bfbb5",
+   "erzeugt": "2026-08-16T02:43:01Z",
+   "erzeugt_ms": 1786848181952,
+   "hoehenmodell": 1,
+   "kopf": {
+    "ab": 0,
+    "bytes": 200
+   },
+   "nachspann": {
+    "ab": 251312372,
+    "bytes": 113
+   },
+   "spiegel": [
+    "https://media.githubusercontent.com/media/tobiasKlingl/Waytide-Kacheln/3a7e19e55ceb22ab154829f056d0afbdcb74b065/E5_N45.rd5"
+   ],
+   "bloecke": [
+    {
+     "platz": 0,
+     "lon": 5,
+     "lat": 45,
+     "ab": 200,
+     "bytes": 10505312,
+     "sha256": "d1205096a3fae6c28a9861cf608992a0d08db57bf8c293d84fcc7fff6dd695ed"
+    },
+    {
+     "platz": 1,
+     "lon": 5,
+     "lat": 46,
+     "ab": 10505512,
+     "bytes": 6024321,
+     "sha256": "94762af980f576220af5bbc72dc17532eafa8ac107a497a357330b36b194f077"
+    },
+    {
+     "platz": 2,
+     "lon": 5,
+     "lat": 47,
+     "ab": 16529833,
+     "bytes": 3882092,
+     "sha256": "c960aa00696787414b163d6b1c0ba92cc2543e45063b5ed6f8d18e6061a73152"
+    },
+    {
+     "platz": 3,
+     "lon": 5,
+     "lat": 48,
+     "ab": 20411925,
+     "bytes": 3028774,
+     "sha256": "639015ba745f3d375268871ba8e748656c86f664405472cbee1df55a97b44b17"
+    },
+    {
+     "platz": 4,
+     "lon": 5,
+     "lat": 49,
+     "ab": 23440699,
+     "bytes": 4711071,
+     "sha256": "cfd1eea742c9d31c9e5a4e76dbbd8ccc76432e59afbd71b3b68e9fda922d0267"
+    },
+    {
+     "platz": 5,
+     "lon": 6,
+     "lat": 45,
+     "ab": 28151770,
+     "bytes": 9411590,
+     "sha256": "78c5159812060d8d0aab0a2362b4188edb47b7e5538339662ba9b31397277931"
+    },
+    {
+     "platz": 6,
+     "lon": 6,
+     "lat": 46,
+     "ab": 37563360,
+     "bytes": 13028688,
+     "sha256": "556ed78a578c75b161dbd4105dbd5cab243ee10645dc70544bdfcbadfbd6ef89"
+    },
+    {
+     "platz": 7,
+     "lon": 6,
+     "lat": 47,
+     "ab": 50592048,
+     "bytes": 6867359,
+     "sha256": "c9f4bfbb5924bc1815611d13ed12909c5dfcc7b454191a5ddd62c7d1c77e5041"
+    },
+    {
+     "platz": 8,
+     "lon": 6,
+     "lat": 48,
+     "ab": 57459407,
+     "bytes": 5199836,
+     "sha256": "97e0440c662a7494795e64e481b0f7f6e8472dd81c5aac5172266cf6109f1c7d"
+    },
+    {
+     "platz": 9,
+     "lon": 6,
+     "lat": 49,
+     "ab": 62659243,
+     "bytes": 10420705,
+     "sha256": "f0317b3dc020937830f979f47d3b6e5253c7fe728a917d65d482e8101c16e33f"
+    },
+    {
+     "platz": 10,
+     "lon": 7,
+     "lat": 45,
+     "ab": 73079948,
+     "bytes": 8421070,
+     "sha256": "d4dc066499393bbba12d0f8058afb561e598fbd76c5b481c485d4194aabe0233"
+    },
+    {
+     "platz": 11,
+     "lon": 7,
+     "lat": 46,
+     "ab": 81501018,
+     "bytes": 11239935,
+     "sha256": "dad01bb609a8199abbef986b329d12bfdface61a91fe419b41fd03aa9d7928c1"
+    },
+    {
+     "platz": 12,
+     "lon": 7,
+     "lat": 47,
+     "ab": 92740953,
+     "bytes": 13951270,
+     "sha256": "4205b0543a35f6a1ffc2a733ed639f6f2c8f1d2f066b656edb2e90e8eb7a99d9"
+    },
+    {
+     "platz": 13,
+     "lon": 7,
+     "lat": 48,
+     "ab": 106692223,
+     "bytes": 10464877,
+     "sha256": "81f26cb778a281fccebd8aae0a702042e9f82e781ff0323744c2b8ff478eeef8"
+    },
+    {
+     "platz": 14,
+     "lon": 7,
+     "lat": 49,
+     "ab": 117157100,
+     "bytes": 10027685,
+     "sha256": "b950f6a91c54644a68a9014f7764b08a52b126adb34f7831efc17d6b26652b31"
+    },
+    {
+     "platz": 15,
+     "lon": 8,
+     "lat": 45,
+     "ab": 127184785,
+     "bytes": 9740447,
+     "sha256": "1e94d9a5aa905ce3a29cdbaa18a286e0f36a4eff6c7941513024b172f17c1965"
+    },
+    {
+     "platz": 16,
+     "lon": 8,
+     "lat": 46,
+     "ab": 136925232,
+     "bytes": 7503434,
+     "sha256": "3a5126eb6925decb8ddf715fd8ab4528d4e1f55b1b89b20bd1417416755ad517"
+    },
+    {
+     "platz": 17,
+     "lon": 8,
+     "lat": 47,
+     "ab": 144428666,
+     "bytes": 18337528,
+     "sha256": "6d3bd0087a6bad0836f23974286c3b56c6d1fa6baa3fe342fc96317c1826114c"
+    },
+    {
+     "platz": 18,
+     "lon": 8,
+     "lat": 48,
+     "ab": 162766194,
+     "bytes": 13051588,
+     "sha256": "565f0cf3c313c130a5db9f6be8204df6ba7cab09737b23420f0e2ed6795e1e1c"
+    },
+    {
+     "platz": 19,
+     "lon": 8,
+     "lat": 49,
+     "ab": 175817782,
+     "bytes": 14846252,
+     "sha256": "bcbbde3d271e91f8b2f0f74adeffdeeb8d84510751a8b00519eed09fdff04445"
+    },
+    {
+     "platz": 20,
+     "lon": 9,
+     "lat": 45,
+     "ab": 190664034,
+     "bytes": 14963324,
+     "sha256": "8406dd7035c6d35a1e8b07da128e89118446c0e05cf5a7cb3dcc2d675fd619d3"
+    },
+    {
+     "platz": 21,
+     "lon": 9,
+     "lat": 46,
+     "ab": 205627358,
+     "bytes": 6919002,
+     "sha256": "c1d973861309d580d4c4e78df65bbb7df39be8a8ba19cef434f9b9d7696431d9"
+    },
+    {
+     "platz": 22,
+     "lon": 9,
+     "lat": 47,
+     "ab": 212546360,
+     "bytes": 13700242,
+     "sha256": "834e644e0af2b174aa5b4098be3bd324d2bfb80295cc275375812f2d322b378b"
+    },
+    {
+     "platz": 23,
+     "lon": 9,
+     "lat": 48,
+     "ab": 226246602,
+     "bytes": 14892850,
+     "sha256": "2db26450bdd265f8615910bdab741cc3f33a1460259c2086e79bec6454f341da"
+    },
+    {
+     "platz": 24,
+     "lon": 9,
+     "lat": 49,
+     "ab": 241139452,
+     "bytes": 10172920,
+     "sha256": "5a780b2e6f440db7a03dbb5c13fb84aa61541ffd08c300da51dee84dc9784eaf"
+    }
+   ]
+  },
+  {
+   "name": "E5_N50.rd5",
+   "bytes": 181667509,
+   "sha256": "4f5fe01e9b77640374bc377e07b85aeb004eaa485913f792405cdb7f1af4b0ad",
+   "erzeugt": "2026-08-16T02:43:01Z",
+   "erzeugt_ms": 1786848181952,
+   "hoehenmodell": 1,
+   "kopf": {
+    "ab": 0,
+    "bytes": 200
+   },
+   "nachspann": {
+    "ab": 181667396,
+    "bytes": 113
+   },
+   "spiegel": [
+    "https://media.githubusercontent.com/media/tobiasKlingl/Waytide-Kacheln/3a7e19e55ceb22ab154829f056d0afbdcb74b065/E5_N50.rd5"
+   ],
+   "bloecke": [
+    {
+     "platz": 0,
+     "lon": 5,
+     "lat": 50,
+     "ab": 200,
+     "bytes": 9095132,
+     "sha256": "24242d62b2a0154e5f9b74c68d43ecceec10a3125f1c37c91e3dd5d15eec1053"
+    },
+    {
+     "platz": 1,
+     "lon": 5,
+     "lat": 51,
+     "ab": 9095332,
+     "bytes": 11977844,
+     "sha256": "412b2bb2ad536d8bad5e2d8ee048164efec9a1cfa3a5da959fe5587fab7e7a6d"
+    },
+    {
+     "platz": 2,
+     "lon": 5,
+     "lat": 52,
+     "ab": 21073176,
+     "bytes": 9688788,
+     "sha256": "0b826cb17f9c3e52e76785593bbf860e9f60fea6484d266bcac17d6a67772fa4"
+    },
+    {
+     "platz": 3,
+     "lon": 5,
+     "lat": 53,
+     "ab": 30761964,
+     "bytes": 1909198,
+     "sha256": "5b245750d2979b35b76fd4d0b482e9f51cb7e0403dee34822a0a72e183a39779"
+    },
+    {
+     "platz": 5,
+     "lon": 6,
+     "lat": 50,
+     "ab": 32671162,
+     "bytes": 10762444,
+     "sha256": "312e58566d9690e0cb270e6c55da10d3a293d651ca0887adaf34b7a52d4c3c41"
+    },
+    {
+     "platz": 6,
+     "lon": 6,
+     "lat": 51,
+     "ab": 43433606,
+     "bytes": 14418349,
+     "sha256": "b3a18fc4c694003cb7aab0b607212aa0c851e4dc71100ec62d89f7b7302027bb"
+    },
+    {
+     "platz": 7,
+     "lon": 6,
+     "lat": 52,
+     "ab": 57851955,
+     "bytes": 9109497,
+     "sha256": "4a7a0e285ad9a0fd2c1dd168a8e79d07c874268852b6a13dcfc4358a5a95f385"
+    },
+    {
+     "platz": 8,
+     "lon": 6,
+     "lat": 53,
+     "ab": 66961452,
+     "bytes": 3242103,
+     "sha256": "e615536cdc6bb4307abd6bd241d94e4285738c76a867594c73ee8769d8e4fa53"
+    },
+    {
+     "platz": 10,
+     "lon": 7,
+     "lat": 50,
+     "ab": 70203555,
+     "bytes": 13051263,
+     "sha256": "0e77ff0232785e41f11b77b22d6209aca092d5afdcfe017ddf8ff66e9d557555"
+    },
+    {
+     "platz": 11,
+     "lon": 7,
+     "lat": 51,
+     "ab": 83254818,
+     "bytes": 18667144,
+     "sha256": "edffe0687cd2a4d56072106c8eede8af8a3ab20ca7635c6cb92c287762e1ce37"
+    },
+    {
+     "platz": 12,
+     "lon": 7,
+     "lat": 52,
+     "ab": 101921962,
+     "bytes": 5550006,
+     "sha256": "7aaf788cefdbf5520a7c1451f7477962cca9820858b9bfa6671736cbb4157b48"
+    },
+    {
+     "platz": 13,
+     "lon": 7,
+     "lat": 53,
+     "ab": 107471968,
+     "bytes": 3173664,
+     "sha256": "5f71b14de3b8c2901c818deff9891ed10ed0d344e9197f48cd371ff8a96a7574"
+    },
+    {
+     "platz": 14,
+     "lon": 7,
+     "lat": 54,
+     "ab": 110645632,
+     "bytes": 33992,
+     "sha256": "69ed6f9cdff965c7a0371958058294f2e8e7ab778938adb49b9c712a2c16874b"
+    },
+    {
+     "platz": 15,
+     "lon": 8,
+     "lat": 50,
+     "ab": 110679624,
+     "bytes": 13633751,
+     "sha256": "d0c754deb7c2239d19d2aa748a71620945845cc80827e33cb52f972549429d5d"
+    },
+    {
+     "platz": 16,
+     "lon": 8,
+     "lat": 51,
+     "ab": 124313375,
+     "bytes": 9925272,
+     "sha256": "19ba106409254ae3e3fd92ec7501e9a9170a33533888a9b42c9bd020230ab792"
+    },
+    {
+     "platz": 17,
+     "lon": 8,
+     "lat": 52,
+     "ab": 134238647,
+     "bytes": 7075397,
+     "sha256": "296b94efe617f309bf5f27ce67a98ebc28727f368bee9a2c6c57c0df124d1533"
+    },
+    {
+     "platz": 18,
+     "lon": 8,
+     "lat": 53,
+     "ab": 141314044,
+     "bytes": 4978239,
+     "sha256": "b6e03f998d6192814e7da287d2e0713f51a5a66ba95480e693a81855d694ca3d"
+    },
+    {
+     "platz": 19,
+     "lon": 8,
+     "lat": 54,
+     "ab": 146292283,
+     "bytes": 947319,
+     "sha256": "d8854ddb2c51f64e0b268510562c38839241bd8dc6f01cc4a12a58b68451fe43"
+    },
+    {
+     "platz": 20,
+     "lon": 9,
+     "lat": 50,
+     "ab": 147239602,
+     "bytes": 8413787,
+     "sha256": "b17ab98515f2a5ce3fc5e9874e919ff27cc3682b6f0f1b34f8a90137e036c65e"
+    },
+    {
+     "platz": 21,
+     "lon": 9,
+     "lat": 51,
+     "ab": 155653389,
+     "bytes": 8671148,
+     "sha256": "7cad3c6ac9a7f3caf4727a024239109a3209b578785b49a6701af52c47aba8fe"
+    },
+    {
+     "platz": 22,
+     "lon": 9,
+     "lat": 52,
+     "ab": 164324537,
+     "bytes": 7089774,
+     "sha256": "6919a63a62ec3959946f01193dfa44bb38c254b7ecbb8c99373d15f1ade0dd11"
+    },
+    {
+     "platz": 23,
+     "lon": 9,
+     "lat": 53,
+     "ab": 171414311,
+     "bytes": 6359677,
+     "sha256": "dc4e5758893332bf8eb7bb30e63f648305a560a19b80b609aba660e4ae59ac19"
+    },
+    {
+     "platz": 24,
+     "lon": 9,
+     "lat": 54,
+     "ab": 177773988,
+     "bytes": 3893408,
+     "sha256": "29a513ed38dc84febc629df6b5b0d4cad36ccee59f1ce251bd6756180c26fb39"
+    }
+   ]
+  }
+ ]
+}
