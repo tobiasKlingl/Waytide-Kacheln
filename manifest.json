@@ -1,6 +1,6 @@
 {
  "fassung": 1,
- "erzeugt": "2026-09-03T00:00:00Z",
+ "erzeugt": "2026-09-02T20:17:17Z",
  "stand": "Waytide-Kacheln@3a7e19e55ceb22ab154829f056d0afbdcb74b065",
  "lizenz": {
   "daten": "ODbL 1.0",
@@ -22,11 +22,13 @@
    "hoehenmodell": 1,
    "kopf": {
     "ab": 0,
-    "bytes": 200
+    "bytes": 200,
+    "sha256": "8573bc8c7e522aded4c5f3d23fed2a3ff795a7ce5c34fed997b72a3abe4f1a5e"
    },
    "nachspann": {
     "ab": 251312372,
-    "bytes": 113
+    "bytes": 113,
+    "sha256": "2cb39ca3702b8f5ea02f2f84f1fa0b85f267c4374610c9db02533803c86debde"
    },
    "spiegel": [
     "https://media.githubusercontent.com/media/tobiasKlingl/Waytide-Kacheln/3a7e19e55ceb22ab154829f056d0afbdcb74b065/E5_N45.rd5"
@@ -243,11 +245,13 @@
    "hoehenmodell": 1,
    "kopf": {
     "ab": 0,
-    "bytes": 200
+    "bytes": 200,
+    "sha256": "003e722f05726cdf004163629cae32e80dddc5dd9f6fc9d59e6450a44d462f3c"
    },
    "nachspann": {
     "ab": 181667396,
-    "bytes": 113
+    "bytes": 113,
+    "sha256": "5c182ff0b1a64a302d5f9eba5effb38ef3994f40fa6b12832c0d9096c7383b68"
    },
    "spiegel": [
     "https://media.githubusercontent.com/media/tobiasKlingl/Waytide-Kacheln/3a7e19e55ceb22ab154829f056d0afbdcb74b065/E5_N50.rd5"
