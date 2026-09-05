@@ -73,8 +73,8 @@ curl -L -O "$S/E5_N45.rd5"
 
 **Warum Releases und nicht `git clone`:** Die Dateien liegen zusätzlich
 als Git-LFS-Objekte auf `main` — das ist das **Archiv** der Kachelstände.
-Der LFS-Medienpfad zählt aber gegen GitHubs Bandbreitenkontingent (1 GB
-im Monat im Gratistarif, gegen mehrere hundert MB je vollem Kachelsatz);
+Der LFS-Medienpfad zählt aber gegen ein monatliches
+Bandbreitenkontingent, gegen mehrere hundert MB je vollem Kachelsatz;
 Release-Anhänge tun das nicht. Zum **Beziehen** also die Releases, zum
 **Nachschlagen der Geschichte** die Commits.
 
