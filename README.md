@@ -51,16 +51,19 @@ eine erfüllt, erfüllt keine.
 **Verändert** (CC BY 4.0 verlangt, Änderungen anzugeben): Die Kacheln
 tragen Höhen nur an den Knoten der Wege, im Höhenformat von `rd5`; wir
 lesen sie dort aus Sonnys Geländemodell ab. Je Gradzelle stammt die Höhe
-entweder von Sonny oder aus den AWS Terrain Tiles (unten).
+von Sonny oder aus den AWS Terrain Tiles (unten) — oder die Zelle trägt
+gar keine Höhe.
 
 ### Wo Sonnys Geländemodell nicht hinreicht: AWS Terrain Tiles
 
-Zellen außerhalb von Sonnys Gebiet (im deutschen Kachelsatz das Meer mit
-Fähren und Fahrrinnen) tragen Höhen aus den
-[AWS Terrain Tiles](https://registry.opendata.aws/terrain-tiles/). Welche
-Zelle woher stammt, steht je Kachelstand in der Herkunftsliste
-`abdeckung.json`. Die Terrain Tiles verlangen diese Namensnennung ihrer
-Quellen (Wortlaut aus
+Ein Teil der Zellen außerhalb von Sonnys Gebiet trägt Höhen aus den
+[AWS Terrain Tiles](https://registry.opendata.aws/terrain-tiles/); die
+übrigen (im deutschen Kachelsatz vor allem Meer mit Fähren und
+Fahrrinnen) tragen gar keine Höhe. Welche Zelle woher stammt — `sonny`,
+`aws` oder `keine` —, steht je Kachelstand in der Herkunftsliste
+`abdeckung.json` (Feld `quelle` je Zelle); Zahlen nennt dieses README
+bewusst nicht, damit es nicht neben der Liste veraltet. Die Terrain
+Tiles verlangen diese Namensnennung ihrer Quellen (Wortlaut aus
 [tilezen/joerd, `docs/attribution.md`](https://github.com/tilezen/joerd/blob/master/docs/attribution.md)):
 
 ```
