@@ -1,8 +1,19 @@
-# Waytide-Kacheln — Routingkacheln im `rd5`-Format
+# Waytide-Kacheln — Kartendaten für Waytide
 
-Dieses Repository hält die `.rd5`-Routingkacheln, gegen die
+Dieses Repository hält die Daten, gegen die
 [Waytide](https://github.com/tobiasKlingl/Waytide) geprüft wird und die
-die Waytide-App lädt. Es enthält **Daten, keinen Code**.
+die Waytide-App lädt. Es enthält **Daten, keinen Code**, und zwar als
+Releases vier verschiedener Arten:
+
+| Release | Inhalt |
+|---|---|
+| `kachelstand-…` | `.rd5`-Routingkacheln, bei selbst gebauten Ständen mit der Herkunftsliste `abdeckung.json` |
+| `karte-…` | Detailkarten im Vektorformat (`.pmtiles`) |
+| `adressen-…` | Adressblöcke der Ortssuche (`.wto`) |
+| `messung-…` | Rohdaten einer Messung |
+
+Die Lizenzangaben der Karten und Adressblöcke stehen in der
+Beschreibung ihres Release; dieses README beschreibt die Routingkacheln.
 
 ---
 
@@ -95,12 +106,12 @@ stammt von dort.
 
 ## Wie man sie bezieht
 
-**Über die Releases dieses Repositories.** Jedes Release ist ein
-**Kachelstand**: ein Name für einen Kartenstand, mit allen Kacheln als
-Anhang.
+**Über die Releases dieses Repositories.** Ein Release `kachelstand-…`
+ist ein **Kachelstand**: ein Name für einen Kartenstand, mit allen
+Kacheln als Anhang.
 
-Aus einem Waytide-Klon heraus geht es in einem Aufruf — er holt nur, was
-fehlt, und prüft jede Datei gegen Bytezahl und SHA-256:
+Aus einem Waytide-Klon heraus holt ein Aufruf die Prüfkacheln des Ports
+— nur, was fehlt, und jede Datei gegen Bytezahl und SHA-256 geprüft:
 
 ```sh
 ./tools/kacheln_holen.sh
@@ -113,19 +124,19 @@ S=https://github.com/tobiasKlingl/Waytide-Kacheln/releases/download/<kachelstand
 curl -L -O "$S/E5_N45.rd5"
 ```
 
-**Warum Releases und nicht `git clone`:** Die Dateien liegen zusätzlich
-als Git-LFS-Objekte auf `main` — das ist das **Archiv** der Kachelstände.
-Der LFS-Medienpfad zählt aber gegen ein monatliches
-Bandbreitenkontingent, gegen mehrere hundert MB je vollem Kachelsatz;
-Release-Anhänge tun das nicht. Zum **Beziehen** also die Releases, zum
-**Nachschlagen der Geschichte** die Commits.
+**Warum Releases und nicht `git clone`:** Auf `main` liegen als
+Git-LFS-Objekte nur die zwei Prüfkacheln aus dem Schnitt von brouter.de
+(`E5_N45.rd5`, `E5_N50.rd5`); die selbst gebauten Stände gibt es nur als
+Release. Der LFS-Medienpfad zählt zudem gegen ein monatliches
+Bandbreitenkontingent; Release-Anhänge tun das nicht. Zum **Beziehen**
+also die Releases.
 
 ## Der Kachelstand ist gepinnt, und das mit Absicht
 
-Waytide hält in `tools/kacheln_holen.sh` genau einen Kachelstand fest —
-Name, Bytezahl und SHA-256 je Datei. Der Grund ist nicht Pedanterie: Die
-Golden-Dateien und das Abnahmetor des Ports gehören zu **genau einem**
-Kartenstand. Ein unbemerkter Kachelwechsel sieht aus wie eine
+Waytide hält jeden Kachelstand, gegen den es prüft oder den die App
+lädt, mit Name, Bytezahl und SHA-256 je Datei fest. Der Grund ist nicht
+Pedanterie: Die Golden-Dateien und das Abnahmetor des Ports gehören zu
+**genau einem** Kartenstand. Ein unbemerkter Kachelwechsel sieht aus wie eine
 Regression der Engine, und diese Verwechslung hat schon einmal einen
 Testlauf gekostet.
 
@@ -135,4 +146,4 @@ ein Tag nicht.
 ## Was hier NICHT hingehört
 
 Bauartefakte, Zwischenstände (`.hgt`, `.bef`, `.pbf`), Höhenrohdaten.
-Nur die fertigen `.rd5`.
+Hierher gehören fertige Erzeugnisse — die Release-Arten oben.
